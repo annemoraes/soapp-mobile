@@ -1,14 +1,20 @@
 import React from 'react';
-import eclipses from '../../images/eclipses.svg'
-import eclipses2 from '../../images/eclipses2.svg'
+import eclipsesTop from '../../images/eclipsesTop.svg'
+import eclipsesBottom from '../../images/eclipsesBottom.svg'
 import logo from '../../images/logo.svg'
+import { Wrapper, Logo, ButtonRegister, TextRegister, EclipseTop, EclipseBottom } from './style';
+import ButtonLogin from '../../components/ButtonLogin/index';
 
-import { Wrapper, Logo } from './style'
-
-function Home () {
+function Home() {
   return (
     <Wrapper>
+      <EclipseTop source={eclipsesTop}/>
       <Logo source={logo}/>
+      <ButtonLogin />
+      <ButtonRegister >
+        <TextRegister>Cadastrar-se</TextRegister>
+      </ButtonRegister >
+      <EclipseBottom source={eclipsesBottom} />
     </Wrapper>   
   );
 }

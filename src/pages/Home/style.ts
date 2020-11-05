@@ -7,8 +7,11 @@ export const Wrapper = styled.SafeAreaView`
     align-items: center;
 `;
 
-export const Eclipse = styled.Image`
+export const EclipseTop = styled.Image`
     top: -108px;
+    height: 400px;
+    width: 590px;
+    margin-left: 0px;
 `;
 
 export const Logo = styled.Image`
@@ -17,9 +20,26 @@ export const Logo = styled.Image`
     height: 43px;
 `;
 
-export const Eclipse2 = styled.Image`
-    top: -4px;
-    left: -24px;
-    height: 260px;
+export const EclipseBottom = styled.Image`
+    padding-bottom: 0px;
+    height: 400px;
+    width: 590px;
 `;
 
+export const ButtonRegister = styled.TouchableOpacity`
+    width: 273px;
+    height: 46px;
+    border: 0;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #000000;
+    margin: 12px;
+`;
+
+export const TextRegister = styled.Text`
+    color: #fff;
+    size: 14px;
+    font-weight: bold;
+`;
