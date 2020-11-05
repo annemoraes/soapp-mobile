@@ -9,6 +9,10 @@ import { useNavigation } from '@react-navigation/native';
 function Home() {
   const navigation = useNavigation();
   
+  function handleNavigateLogin() {
+    navigation.navigate('Login');
+  }
+
   function handleNavigateRegister() {
     navigation.navigate('Register');
   }
