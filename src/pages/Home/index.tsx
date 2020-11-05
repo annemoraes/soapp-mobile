@@ -1,11 +1,15 @@
 import React from 'react';
+import eclipses from '../../images/eclipses.svg'
+import eclipses2 from '../../images/eclipses2.svg'
+import logo from '../../images/logo.svg'
 
-import { View, Text } from 'react-native';
+import { Wrapper, Logo } from './style'
 
 function Home () {
   return (
-    <View>
-    </View>    
+    <Wrapper>
+      <Logo source={logo}/>
+    </Wrapper>   
   );
 }
 
