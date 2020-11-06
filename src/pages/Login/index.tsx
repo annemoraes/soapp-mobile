@@ -1,9 +1,17 @@
 import React from 'react';
-import { View } from 'react-native';
+import { TouchableOpacity } from 'react-native';
+import { Wrapper, ButtonReturn } from './style';
+import returnButton from '../../images/return.svg';
+
 
 function Login(){
+  
   return(
-    <View></View>
+    <Wrapper>
+      <TouchableOpacity>
+        <ButtonReturn source={returnButton}/>      
+      </TouchableOpacity>
+    </Wrapper>
   );
 }
 

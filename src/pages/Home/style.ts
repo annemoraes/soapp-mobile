@@ -9,7 +9,7 @@ export const Wrapper = styled.SafeAreaView`
 
 export const EclipseTop = styled.Image`
     top: -108px;
-    height: 400px;
+    height: 60vh;
     width: 590px;
     margin-left: 0px;
 `;
